@@ -25,6 +25,8 @@ public class MyRecyclerView extends RecyclerView.Adapter<MyRecyclerView.MyViewHo
     @NonNull
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        //test
+
         View v= LayoutInflater.from(parent.getContext()).inflate(R.layout.my_custom_simple_list,parent,false);
 
         return new MyViewHolder(v);

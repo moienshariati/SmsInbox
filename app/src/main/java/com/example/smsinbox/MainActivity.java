@@ -29,6 +29,9 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        //Added this line for testing git on Android Project
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_swiperefresh);
 
